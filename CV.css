@@ -109,7 +109,7 @@ h4 {
 }
 .section-right .wrapper {
 margin-left: 50px;
-}
+ }
 
 .section-right ul {
     margin-left: -20px;
@@ -117,4 +117,29 @@ margin-left: 50px;
 .section-right h2 {
     color: #E2474B;
     font-weight: bold;
+}
+.skills, .contact, .social {
+    padding: 10px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        width: 160%;
+    }
+    .header {
+        width: 170%;
+    }
+  .wrapper, .section-right {
+  width: 120%;
+  }
+   .fa {
+      font-size: 18px;
+      padding: 5px;
+  }
+  .skills, .contact, .social {
+    padding: 20px 0;
+}
+}
+.section-right h2 {
+    line-height: 50px;
 }

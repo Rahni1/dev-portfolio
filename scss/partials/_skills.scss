@@ -13,7 +13,8 @@
   border: 1px solid $border-color;
   text-align: center;
   padding: 1.5rem 0;
-  margin: 0rem 0rem;
+  box-sizing: none;
+  margin: 2rem 0rem;
   width: 290px;
   height: 130px;
   cursor: pointer;

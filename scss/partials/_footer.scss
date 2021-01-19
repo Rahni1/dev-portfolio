@@ -1,11 +1,11 @@
 .sec1 {
-    width: 100%;
+    width: 100vw;
     height: 200px;
     position: relative;
 }
 
 .footer {
-    width: 100%;
+    width: 100vw;
     height: 200px;
     background: $navy-blue;
     position: relative;
@@ -52,6 +52,7 @@ body {
 // keep footer at bottom
 #container {
     min-height: 100%;
+    padding: 0 16px;
     position: relative;
 }
 #header {
@@ -65,7 +66,7 @@ body {
     position: absolute;
     bottom: 0;
     margin-left: -26px;
-    width: 100%;
+    width: 100vw;
     height: 80px;
 }
 

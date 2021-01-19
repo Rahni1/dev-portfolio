@@ -8,9 +8,10 @@
 .site-main .skills .first-row .col-lg-1 {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 0 2rem;
 }
 
@@ -18,20 +19,22 @@
   border: 1px solid #201f1f17;
   text-align: center;
   padding: 1.5rem 0;
-  margin: 0rem 0rem;
+  -webkit-box-sizing: none;
+          box-sizing: none;
+  margin: 2rem 0rem;
   width: 290px;
   height: 130px;
   cursor: pointer;
   -webkit-transition: -webkit-transform 0.4s ease;
-  -moz-transition: -moz-transform 0.4s ease;
-  -o-transition: -o-transform 0.4s ease;
+  transition: -webkit-transform 0.4s ease;
   transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
 }
+
 .site-main .skills .first-row .col-lg-1 > .single-skill:hover {
-  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  -webkit-box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+          box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
   -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
   transform: scale(1.1);
 }
 
@@ -81,6 +84,7 @@
     left: -400%;
   }
 }
+
 @keyframes slider {
   0% {
     left: 0;
@@ -110,10 +114,12 @@
     left: -400%;
   }
 }
+
 .site-main .services-area {
   padding: 7rem 2rem 0rem 2rem;
   margin-bottom: -100px;
 }
+
 .site-main .services-area .services-title {
   padding: 0 14rem;
 }
@@ -128,10 +134,15 @@
   width: 16rem;
   height: 20rem;
   margin: 5rem 0.5rem;
+  -webkit-transition: -webkit-box-shadow 0.7s ease;
+  transition: -webkit-box-shadow 0.7s ease;
   transition: box-shadow 0.7s ease;
+  transition: box-shadow 0.7s ease, -webkit-box-shadow 0.7s ease;
 }
+
 .site-main > .services-area .services:hover {
-  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  -webkit-box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+          box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
 }
 
 #portfolio {
@@ -145,6 +156,10 @@
 
 .project-area .our-project {
   margin-top: 3rem;
+}
+
+.inline-btn {
+  display: inline-block;
 }
 
 .site-main .project-area .button-group button {
@@ -163,7 +178,8 @@
 }
 
 .site-main .project-area .grid .our-project .img a:hover img {
-  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+  -webkit-filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+          filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
 
 .our-project span a {
@@ -176,10 +192,7 @@
   font: "Roboto", sans-serif 18px;
   outline: none;
   border: none;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
   border-radius: 0;
-  -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
   height: auto;
@@ -231,12 +244,10 @@
   border: none;
   width: 100%;
   height: 60px;
-  border-bottom: 2px solid #E2474B;
+  border-bottom: 2px solid #e2474b;
   margin: 0;
   position: relative;
   margin-bottom: 20px;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
@@ -268,10 +279,7 @@
   margin: 0;
   outline: none;
   border: none;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
   border-radius: 0;
-  -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
   height: auto;
@@ -284,17 +292,13 @@
 }
 
 .contact-form .square-button {
-  background-color: #E2474B;
+  background-color: #e2474b;
   color: #fff;
   font-size: 26px;
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
   border-radius: 2px;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   padding: 0 60px;
@@ -312,10 +316,10 @@
 
 .contact-form .square-button:hover,
 .contact-form .square-button:focus {
-  background-color: #E2474B;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  background-color: #e2474b;
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   -webkit-transform: translateY(-4px);
-  -ms-transform: translateY(-4px);
   transform: translateY(-4px);
 }
 
@@ -331,18 +335,18 @@
   font: normal 500 15px/2px var(--roboto);
   text-transform: uppercase;
   padding: 1.7rem;
-  color: #0E2449;
+  color: #0e2449;
 }
 
 .header .main-menu .navbar-nav .active a {
-  background: #0E2449;
+  background: #0e2449;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .header .main-menu .navbar-nav a:hover {
-  background: #0E2449;
+  background: #0e2449;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -355,8 +359,10 @@
   left: 0;
   right: 0;
   background-color: white;
-  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  -webkit-box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+          box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
   z-index: 999;
+  -webkit-transition: background 1s ease;
   transition: background 1s ease;
 }
 
@@ -375,7 +381,7 @@
 }
 
 .site-main .about .about-title .paragraph > p {
-  padding: 0.4rem 0;
+  padding: .4rem 0;
 }
 
 p.para {
@@ -391,7 +397,7 @@ p.para {
 .footer {
   width: 100%;
   height: 200px;
-  background: #0E2449;
+  background: #0e2449;
   position: relative;
 }
 
@@ -402,8 +408,9 @@ p.para {
   position: absolute;
   top: -48px;
   left: 0;
-  background: #0E2449;
-  transform: skewY(8deg);
+  background: #0e2449;
+  -webkit-transform: skewY(8deg);
+          transform: skewY(8deg);
 }
 
 .footer:after {
@@ -413,9 +420,8 @@ p.para {
   position: absolute;
   top: -48px;
   right: 0;
-  background: #0E2449;
+  background: #0e2449;
   -webkit-transform: skewY(-8deg);
-  -ms-transform: skewY(-8deg);
   transform: skewY(-8deg);
 }
 
@@ -467,10 +473,9 @@ body {
   display: inline;
   font-size: 22px;
 }
+
 .social-item a {
   -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -o-transition: 0.5s;
   transition: 0.5s;
   border: 1px solid #fff;
   color: white;
@@ -478,22 +483,24 @@ body {
   display: inline-block;
   font-size: 20px;
   padding: 10px 14px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
 }
+
 .social-item a:hover {
-  border: 1px solid #E2474B;
-  color: #E2474B;
+  border: 1px solid #e2474b;
+  color: #e2474b;
 }
 
 .project-img {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 4rem auto;
   border: 2px solid #ebebeb;
   width: 60%;
@@ -505,14 +512,14 @@ body {
 
 .ecommerce-title {
   font: normal bold 30px/30px "Roboto", sans-serif;
-  color: #0E2449;
+  color: #0e2449;
   text-align: center;
   margin-top: 2rem;
 }
 
 .caption {
   font-family: "Lobster Two", cursive;
-  color: #E2474B;
+  color: #e2474b;
   font-size: 20px;
   margin: -50px 0 0 20%;
 }
@@ -520,28 +527,30 @@ body {
 .project-details {
   margin: 6rem auto 2rem auto;
   width: 60%;
-  padding: 0.5rem;
-  border: 1px solid #E2474B;
+  padding: .5rem;
+  border: 1px solid #e2474b;
 }
+
 .project-details h2 {
   text-align: center;
-  color: #E2474B;
+  color: #e2474b;
   font-family: "Lobster Two", cursive;
 }
 
 .project-details ul li {
-  color: #0E2449;
+  color: #0e2449;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 
 .mb {
-  background: red;
+  padding-bottom: 30px;
 }
 
 body {
   height: 100%;
   min-height: 100%;
+  overflow-x: hidden;
 }
 
 .site-main .site-banner {
@@ -560,14 +569,16 @@ body {
   padding-top: 35%;
   font-weight: 500;
 }
+
 .site-main .site-banner .site-title h3::after {
   content: "";
   height: 2px;
   width: 18rem;
-  background: #0E2449;
+  background: #0e2449;
   display: inline-block;
   margin-left: 5%;
-  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
 .site-main .site-banner .banner-image > img {
@@ -587,31 +598,35 @@ button:focus,
 button:active button:hover .btn:active,
 .btn.active {
   outline: 0px !important;
-  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .button {
   padding: 0.8rem 2.2rem;
   font: normal 500 16px/20px "Roboto", sans-serif;
   position: relative;
-  border: 2px solid #E2474B;
+  border: 2px solid #e2474b;
   border-radius: 4px;
 }
 
 .button.primary-button {
-  background: #E2474B;
+  background: #e2474b;
   background-clip: padding-box;
   color: whitesmoke;
+  -webkit-transition: background 0.6s ease;
   transition: background 0.6s ease;
-  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  -webkit-box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+          box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
 }
+
 .button.primary-button::after {
   position: absolute;
   top: -2px;
   left: -2px;
   bottom: -2px;
   right: -2px;
-  background: #E2474B;
+  background: #e2474b;
   content: " ";
   z-index: -1;
   border-radius: 4px;
@@ -620,21 +635,23 @@ button:active button:hover .btn:active,
 .button.primary-button:hover {
   background: whitesmoke;
   background-clip: padding-box;
-  color: #0E2449;
+  color: #0e2449;
 }
 
 .button.secondary-button {
   background: white;
   background-clip: padding-box;
+  -webkit-transition: background 0.6s ease;
   transition: background 0.6s ease;
 }
+
 .button.secondary-button::after {
   position: absolute;
   top: -2px;
   left: -2px;
   bottom: -2px;
   right: -2px;
-  background: #E2474B;
+  background: #e2474b;
   content: " ";
   z-index: -1;
   border-radius: 4px;
@@ -643,7 +660,7 @@ button:active button:hover .btn:active,
 .button.secondary-button:hover {
   background: whitesmoke;
   background-clip: padding-box;
-  color: #0E2449;
+  color: #0e2449;
 }
 
 .skills-text {
@@ -653,5 +670,4 @@ button:active button:hover .btn:active,
 .title-h1 {
   font: normal bold 50px/72px "Roboto", sans-serif;
 }
-
 /*# sourceMappingURL=main.css.map */
