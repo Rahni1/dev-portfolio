@@ -28,7 +28,13 @@
     margin-top: -15px;
     margin-left: 40px;
   }
-
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    float: none;
+  }
  
 .card_wrapper {
  display: flex;
