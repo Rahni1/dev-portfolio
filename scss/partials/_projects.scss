@@ -1,43 +1,51 @@
+.project-images {
+    @include flex;
+    flex-wrap: wrap;
+}
 .project-img {
-@include flex;
-justify-content: center;
-align-items: center;
-margin: 4rem auto;
- border: 2px solid rgb(235, 235, 235);
-width: 60%;
+    margin: 4rem;
 }
-
+.info-heading a {
+    color: $orange;
+}
+.info-links {
+   text-align: center;
+}
+.project-images > img {
+    border: 2px solid rgb(235, 235, 235);
+    width: 20%;
+}
 .blog-twitter {
- padding-top: 6rem;
+    padding-top: 6rem;
 }
-.ecommerce-title {
+.header {
     font: normal bold 30px/30px $roboto;
     color: $navy-blue;
     text-align: center;
     margin-top: 2rem;
 }
-.caption {
+.info-heading {
+    font: normal bold 30px/30px $roboto;
     font-family: $caption;
     color: $orange;
-    font-size: 20px;
-    margin: -50px 0 0 20%;
+    margin: 4rem 0 -2rem 4rem;
 }
 .project-details {
-  margin: 6rem auto 2rem auto;
+    margin: 6rem auto 2rem auto;
     width: 60%;
-    padding: .5rem;
+    padding: 0.5rem;
     border: 1px solid $orange;
- h2 {
-    text-align: center;
-    color: $orange;
-    font-family: $caption;
-}
+    h2 {
+        text-align: center;
+        color: $orange;
+        font-family: $caption;
+    }
 }
 
 .project-details ul li {
-color: $navy-blue;
-font-family: $roboto;
-font-size: 14px;
+    color: $navy-blue;
+    font-family: $roboto;
+    font-size: 14px;
 }
 
 .mb {

@@ -493,34 +493,47 @@ body {
   color: #e2474b;
 }
 
-.project-img {
+.project-images {
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 4rem auto;
+  flex-wrap: wrap;
+}
+
+.project-img {
+  margin: 4rem;
+}
+
+.info-heading a {
+  color: #e2474b;
+}
+
+.info-links {
+  text-align: center;
+}
+
+.project-images > img {
   border: 2px solid #ebebeb;
-  width: 60%;
+  width: 20%;
 }
 
 .blog-twitter {
   padding-top: 6rem;
 }
 
-.ecommerce-title {
+.header {
   font: normal bold 30px/30px "Roboto", sans-serif;
   color: #0e2449;
   text-align: center;
   margin-top: 2rem;
 }
 
-.caption {
+.info-heading {
+  font: normal bold 30px/30px "Roboto", sans-serif;
   font-family: "Lobster Two", cursive;
   color: #e2474b;
-  font-size: 20px;
-  margin: -50px 0 0 20%;
+  margin: 4rem 0 -2rem 4rem;
 }
 
 .project-details {
