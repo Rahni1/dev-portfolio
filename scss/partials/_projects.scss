@@ -9,7 +9,7 @@
     color: $orange;
 }
 .info-links {
-   text-align: center;
+    text-align: center;
 }
 .project-images > img {
     border: 2px solid rgb(235, 235, 235);
@@ -17,6 +17,16 @@
 }
 .blog-twitter {
     padding-top: 6rem;
+}
+.planetrescue-img {
+    width: 40% !important;
+    margin: 2rem;
+}
+@media only screen and (max-width: 992px) {
+    .planetrescue-img, .project-images {
+        width: 100%;
+    }
+
 }
 .view-more-title {
     font: normal bold 30px/30px $roboto;
@@ -41,7 +51,11 @@
         font-family: $caption;
     }
 }
-
+.planetrescue-h2 {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-left: 2rem;
+}
 .project-details ul li {
     color: $navy-blue;
     font-family: $roboto;

@@ -522,6 +522,16 @@ body {
   padding-top: 6rem;
 }
 
+.planetrescue-img {
+  width: 40% !important;
+  margin: 2rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .planetrescue-img, .project-images {
+    width: 100%;
+  }
+}
 .view-more-title {
   font: normal bold 30px/30px "Roboto", sans-serif;
   color: #0e2449;
@@ -546,6 +556,12 @@ body {
   text-align: center;
   color: #e2474b;
   font-family: "Lobster Two", cursive;
+}
+
+.planetrescue-h2 {
+  padding-bottom: 1em;
+  padding-top: 1em;
+  margin-left: 2rem;
 }
 
 .project-details ul li {
