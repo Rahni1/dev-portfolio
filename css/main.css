@@ -388,13 +388,13 @@ p.para {
 }
 
 .sec1 {
-  width: 100vw;
+  width: 100%;
   height: 200px;
   position: relative;
 }
 
 .footer {
-  width: 100vw;
+  width: 100%;
   height: 200px;
   background: #0e2449;
   position: relative;
@@ -440,7 +440,6 @@ body {
 
 #container {
   min-height: 100%;
-  padding: 0 16px;
   position: relative;
 }
 
@@ -456,8 +455,8 @@ body {
 #footer {
   position: absolute;
   bottom: 0;
-  margin-left: -26px;
-  width: 100vw;
+  margin-left: -10px;
+  width: 100%;
   height: 80px;
 }
 
