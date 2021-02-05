@@ -19,6 +19,10 @@
   }
 }
 @media only screen and (max-width: 792px) {
+  .about {
+    margin-top: -6em;
+  }
+
   .site-main .about .about-title h2 > span {
     font-size: 31px;
     letter-spacing: 10px;
@@ -52,7 +56,6 @@
     width: 500%;
     margin: 0px;
     left: -40px;
-    animation: none important;
   }
 
   .contact-header {
