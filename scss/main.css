@@ -12,10 +12,11 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 0 -1rem;
+  margin: 0 2rem;
 }
 
 .site-main .skills .first-row .col-lg-1 > .single-skill {
+  border: 1px solid #201f1f17;
   text-align: center;
   padding: 1.5rem 0;
   -webkit-box-sizing: none;
@@ -50,6 +51,68 @@
   width: 500%;
   margin: 0px;
   left: 0;
+  -webkit-animation: 12s slider infinite;
+  animation: 12s slider infinite;
+}
+
+@-webkit-keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
 }
 
 .site-main .services-area {
