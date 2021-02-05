@@ -16,11 +16,19 @@
 }
 
 .site-main .skills .first-row .col-lg-1 > .single-skill {
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 1.5rem 0;
   -webkit-box-sizing: none;
           box-sizing: none;
-  margin: 2rem 0rem;
+  margin: 2rem 0;
   width: 290px;
   height: 130px;
   cursor: pointer;
@@ -349,6 +357,10 @@
   padding-top: 190px;
 }
 
+.graphic-1 {
+  margin-top: 100px;
+}
+
 .site-main .about .about-title h2 > span {
   display: block;
   font: normal bold 49px/60px "Roboto", sans-serif;
@@ -356,7 +368,7 @@
 }
 
 .site-main .about .about-title .paragraph > p {
-  padding: .4rem 0;
+  padding: 0.4rem 0;
 }
 
 p.para {

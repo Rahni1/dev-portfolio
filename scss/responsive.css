@@ -20,6 +20,28 @@
   .about {
     margin-top: -6em;
   }
+  .info-links {
+    text-align: left;
+    padding-bottom: 50px;
+  }
+  .info-heading {
+    margin-left: .6em;
+  }
+  .project-images {
+    width: 150%;
+  }
+  .project-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 50%;
+            flex: 0 50%;
+    margin: 4em 1em;
+  }
+  .planetrescue-links {
+    margin-left: .8em;
+  }
   #portfolio {
     padding-top: 140px;
   }
