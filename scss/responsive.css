@@ -16,12 +16,6 @@
   }
 }
 
-@media only screen and (max-width: 992px) {
-  .site-main .skills {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 792px) {
   .site-main .about .about-title h2 > span {
     font-size: 31px;
@@ -110,9 +104,6 @@
 }
 
 @media (min-width: 1281px) {
-  .contact-wrap {
-    margin-left: 200px;
-  }
   .services-area {
     margin-left: 130px;
   }

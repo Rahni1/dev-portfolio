@@ -46,7 +46,7 @@
 #slider .row {
   position: relative;
   width: 300%;
-  margin: 0px;
+  margin: 5rem 0px;
   left: 0;
 }
 
@@ -78,7 +78,7 @@
 }
 
 #portfolio {
-  padding-top: 220px;
+  padding-top: 250px;
 }
 
 .site-main .project-area {
@@ -182,7 +182,7 @@
   align-items: center;
   justify-content: center;
   margin: auto;
-  margin: 210px auto 0 auto;
+  margin: 170px auto 0 auto;
   padding: 0px 40px;
 }
 
