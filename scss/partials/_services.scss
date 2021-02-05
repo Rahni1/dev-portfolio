@@ -1,5 +1,5 @@
 .site-main .services-area {
-  padding: 7rem 2rem 0rem 2rem;
+ display: flex;
   margin-bottom: -100px;
   .services-title {
     padding: 0 14rem;
@@ -15,7 +15,10 @@
   padding: 2rem 0;
   width: 16rem;
   height: 20rem;
-  margin: 5rem 0.5rem;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0rem;
+  margin: auto;
   transition: box-shadow 0.7s ease;
   &:hover {
     box-shadow: $box-shadow;
