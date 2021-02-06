@@ -1,6 +1,10 @@
 .project-images {
     @include flex;
     flex-wrap: wrap;
+    img {
+        border: 2px solid rgb(235, 235, 235);
+        width: 20%;
+    }
 }
 .project-img {
     margin: 4rem;
@@ -11,10 +15,7 @@
 .info-links {
     text-align: center;
 }
-.project-images > img {
-    border: 2px solid rgb(235, 235, 235);
-    width: 20%;
-}
+
 .blog-twitter {
     padding-top: 6rem;
 }
@@ -23,10 +24,10 @@
     margin: 2rem;
 }
 @media only screen and (max-width: 992px) {
-    .planetrescue-img, .project-images {
+    .planetrescue-img,
+    .project-images {
         width: 100%;
     }
-
 }
 .view-more-title {
     font: normal bold 30px/30px $roboto;
