@@ -52,19 +52,12 @@
   left: 0;
 }
 
-.site-main .services-area {
-  display: flex;
-  margin-bottom: -100px;
-}
-.site-main .services-area .services-title {
-  padding: 0 14rem;
-}
-
-.site-main .services-area .services-title h1 {
+.site-main .services-title h1 {
   font-size: 35px;
+  margin-top: 100px;
 }
 
-.site-main > .services-area .services {
+.site-main > .services {
   background: rgba(248, 252, 253, 0.973);
   padding: 2rem 0;
   width: 16rem;
@@ -74,12 +67,16 @@
   margin: auto;
   transition: box-shadow 0.7s ease;
 }
-.site-main > .services-area .services:hover {
+.site-main > .services:hover {
   box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
 }
 
+.services-para {
+  padding-bottom: 2rem;
+}
+
 #portfolio {
-  padding-top: 250px;
+  padding-top: 200px;
 }
 
 .site-main .project-area {
@@ -561,6 +558,10 @@ body {
 
 .site-main .site-banner .site-title h4 {
   font-size: 1.5rem;
+}
+
+.project-area h1, .contact-form h1, .services-title h1 {
+  font-size: 45px;
 }
 
 .site-main .site-banner .site-title h3 {

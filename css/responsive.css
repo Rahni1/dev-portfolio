@@ -46,6 +46,10 @@
     margin-left: 0.8em;
   }
 
+  #portfolio h1, .contact-form h1, .services-title h1 {
+    font-size: 45px;
+  }
+
   .planetrescue-h2 {
     margin-left: 1em;
   }

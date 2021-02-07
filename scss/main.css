@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap");
 .site-main .skills {
-  padding: 1rem 0rem;
-  margin: 4rem 0rem;
+  padding: 1rem 0;
+  margin: 4rem 0;
 }
 
 .site-main .skills .first-row .col-lg-1 {
@@ -12,7 +12,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 0 0rem;
+  margin: 0;
 }
 
 .site-main .skills .first-row .col-lg-1 > .single-skill {
@@ -56,26 +56,16 @@
 #slider .row {
   position: relative;
   width: 300%;
-  margin: 5rem 0px;
+  margin: 5rem 0;
   left: 0;
 }
 
-.site-main .services-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: -100px;
-}
-
-.site-main .services-area .services-title {
-  padding: 0 14rem;
-}
-
-.site-main .services-area .services-title h1 {
+.site-main .services-title h1 {
   font-size: 35px;
+  margin-top: 100px;
 }
 
-.site-main > .services-area .services {
+.site-main > .services {
   background: rgba(248, 252, 253, 0.973);
   padding: 2rem 0;
   width: 16rem;
@@ -86,7 +76,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 5rem 0rem;
   margin: auto;
   -webkit-transition: -webkit-box-shadow 0.7s ease;
   transition: -webkit-box-shadow 0.7s ease;
@@ -94,13 +83,17 @@
   transition: box-shadow 0.7s ease, -webkit-box-shadow 0.7s ease;
 }
 
-.site-main > .services-area .services:hover {
+.site-main > .services:hover {
   -webkit-box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
           box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
 }
 
+.services-para {
+  padding-bottom: 2rem;
+}
+
 #portfolio {
-  padding-top: 250px;
+  padding-top: 200px;
 }
 
 .site-main .project-area {
@@ -108,7 +101,7 @@
   width: 100%;
 }
 
-.project-area .our-project {
+.site-main .project-area .our-project {
   margin-top: 3rem;
 }
 
@@ -486,6 +479,11 @@ body {
       flex-wrap: wrap;
 }
 
+.project-images img {
+  border: 2px solid #ebebeb;
+  width: 20%;
+}
+
 .project-img {
   margin: 4rem;
 }
@@ -498,11 +496,6 @@ body {
   text-align: center;
 }
 
-.project-images > img {
-  border: 2px solid #ebebeb;
-  width: 20%;
-}
-
 .blog-twitter {
   padding-top: 6rem;
 }
@@ -513,7 +506,8 @@ body {
 }
 
 @media only screen and (max-width: 992px) {
-  .planetrescue-img, .project-images {
+  .planetrescue-img,
+  .project-images {
     width: 100%;
   }
 }
@@ -561,6 +555,19 @@ body {
   padding-bottom: 30px;
 }
 
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.header-404 {
+  color: #0e2449;
+}
+
+.container-404 {
+  text-align: center;
+  padding-top: 20px;
+}
+
 body {
   height: 100%;
   min-height: 100%;
@@ -577,6 +584,10 @@ body {
 
 .site-main .site-banner .site-title h4 {
   font-size: 1.5rem;
+}
+
+.project-area h1, .contact-form h1, .services-title h1 {
+  font-size: 45px;
 }
 
 .site-main .site-banner .site-title h3 {
