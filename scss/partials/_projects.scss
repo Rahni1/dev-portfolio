@@ -6,6 +6,10 @@
         width: 20%;
     }
 }
+.info-heading {
+    color: $navy-blue !important;
+}
+
 .project-img {
     margin: 4rem;
 }
@@ -22,6 +26,14 @@
 .planetrescue-img {
     width: 40% !important;
     margin: 2rem;
+}
+.clock_images {
+    margin-top: 2rem;
+    margin: .8rem;
+}
+.clock_img {
+    width: 20% !important;
+    margin: 1rem;
 }
 @media only screen and (max-width: 992px) {
     .planetrescue-img,
