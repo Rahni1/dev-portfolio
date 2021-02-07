@@ -50,6 +50,10 @@
     margin-left: 1em;
   }
 
+  .site-main .services-area .services-title h1 {
+    margin-top: 60px;
+  }
+
   #portfolio {
     padding-top: 140px;
   }
@@ -62,6 +66,10 @@
   .social-media {
     margin-top: -15px;
     margin-left: 40px;
+  }
+
+  .contact-form {
+    margin-top: 220px;
   }
 
   .social-media {
