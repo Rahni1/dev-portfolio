@@ -61,6 +61,7 @@
 }
 
 .site-main .services-area .services-title h1 {
+  margin-top: 60px;
   font-size: 35px;
 }
 
@@ -182,7 +183,7 @@
   align-items: center;
   justify-content: center;
   margin: auto;
-  margin: 170px auto 0 auto;
+  margin: 220px auto 0 auto;
   padding: 0px 40px;
 }
 
@@ -538,10 +539,6 @@ body {
 
 .header-404 {
   color: #0e2449;
-}
-
-.img-error {
-  align-items: center;
 }
 
 .container-404 {
