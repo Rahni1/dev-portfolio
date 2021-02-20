@@ -9,7 +9,14 @@
 .info-heading {
     color: $navy-blue !important;
 }
-
+.two-image-col > .flutter_website {
+    display: inline-block;
+    }
+    .flutter_website {
+        margin: 1rem;
+        margin-left: 2rem;
+        border: 1px solid lightgrey;
+    }
 .project-img {
     margin: 4rem;
 }
@@ -26,6 +33,12 @@
 .planetrescue-img {
     width: 40% !important;
     margin: 2rem;
+}
+.caption {
+    font-family: $caption;
+    color: $navy-blue;
+    font-size: 20px;
+    margin-left: 2rem;
 }
 .clock_images {
     margin-top: 2rem;
@@ -70,12 +83,13 @@
     margin-left: 2rem;
 }
 
+
 .project-details ul li {
     color: $navy-blue;
     font-family: $roboto;
     font-size: 14px;
 }
 
-.mb {
-    padding-bottom: 30px;
+.last-row {
+    padding-bottom: 10px;
 }
