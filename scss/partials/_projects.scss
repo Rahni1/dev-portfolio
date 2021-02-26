@@ -104,3 +104,20 @@
 .last-row {
     padding-bottom: 10px;
 }
+.three-col {
+    display: flex;
+    column: 0 0 33%;
+}
+@media only screen and (max-width: 600px) {
+    .three-col {
+        display: flex;
+        flex-direction: column;
+      
+    }
+}
+.project-h4-desc {
+    color: $navy-blue;
+    text-align: center;
+    font-family: $caption;
+    font-size: 20px;
+}

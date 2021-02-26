@@ -578,6 +578,24 @@ body {
   padding-bottom: 10px;
 }
 
+.three-col {
+  display: flex;
+  column: 0 0 33%;
+}
+
+@media only screen and (max-width: 600px) {
+  .three-col {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.project-h4-desc {
+  color: #0e2449;
+  text-align: center;
+  font-family: "Lobster Two", cursive;
+  font-size: 20px;
+}
+
 * {
   font-family: "Roboto", sans-serif;
 }
