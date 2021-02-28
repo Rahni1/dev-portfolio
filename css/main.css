@@ -469,6 +469,7 @@ body {
 
 .two-image-col > .flutter_website {
   display: inline-block;
+  position: relative;
 }
 
 .flutter_website {
@@ -518,6 +519,7 @@ body {
 @media only screen and (max-width: 992px) {
   .planetrescue-img,
 .project-images {
+    position: relative;
     width: 100%;
   }
 }
