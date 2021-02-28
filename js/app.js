@@ -18,41 +18,6 @@ $(document).ready(function () {
   navbarFixed();
 });
 
-// PROJECT BUTTONS
-document.getElementById("cv").onclick = function () {
-  location.href = "../html/CV.html";
-};
-
-document.getElementById("project1-code").onclick = function () {
-  location.href = "https://github.com/Rahni1/ecommerce-website";
-};
-document.getElementById("project1-more").onclick = function () {
-  location.href = "../html/project1.html";
-};
-
-document.getElementById("project4-code").onclick = function () {
-  location.href = "https://github.com/Rahni1/mern_blog";
-};
-document.getElementById("project4-more").onclick = function () {
-  location.href = "../html/project4.html";
-};
-
-document.getElementById("project3-code").onclick = function () {
-  location.href = "https://github.com/Rahni1/devscreate";
-};
-
-document.getElementById("project3-site").onclick = function () {
-  location.href = "https://rahni1.github.io/devscreate/";
-};
-
-document.getElementById("project2-code").onclick = function () {
-  location.href = "https://github.com/Rahni1/Boozles";
-};
-
-document.getElementById("project2-site").onclick = function () {
-  location.href = "https://rahni1.github.io/Boozles/";
-};
-
 // CONTACT FORM
 $(document).ready(function () {
   $(".contact-form")
