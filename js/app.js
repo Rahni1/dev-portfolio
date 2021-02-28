@@ -18,6 +18,11 @@ $(document).ready(function () {
   navbarFixed();
 });
 
+// PROJECT BUTTONS
+document.getElementById("cv").onclick = function () {
+  location.href = "../html/CV.html";
+};
+
 // CONTACT FORM
 $(document).ready(function () {
   $(".contact-form")
