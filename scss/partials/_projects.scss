@@ -1,124 +1,123 @@
 .project-images {
-    @include flex;
-    flex-wrap: wrap;
-    img {
-        border: 2px solid rgb(235, 235, 235);
-        width: 20%;
-    }
+  @include flex;
+  flex-wrap: wrap;
+  img {
+    border: 2px solid rgb(235, 235, 235);
+    width: 20%;
+  }
 }
 .info-heading {
-    color: $navy-blue !important;
+  color: $navy-blue !important;
 }
-// .two-image-col > .flutter_website {
-//     display: inline-block;
-//     }
-//     .flutter_website {
-//         margin: 1rem;
-//         margin-left: 2rem;
-//         border: 1px solid lightgrey;
-//     }
+.two-image-col > .flutter_website {
+  display: inline-block;
+}
+.flutter_website {
+  margin: 1rem;
+  margin-left: 2rem;
+  border: 1px solid lightgrey;
+}
 .project-img {
-    margin: 4rem;
+  margin: 4rem;
 }
 .info-heading a {
-    color: $orange;
+  color: $orange;
 }
 .info-links {
-    text-align: center;
+  text-align: center;
 }
 
 .blog-twitter {
-    padding-top: 6rem;
+  padding-top: 6rem;
 }
 .planetrescue-img {
-    width: 40% !important;
-    margin: 2rem;
+  width: 40% !important;
+  margin: 2rem;
 }
 .caption {
-    font-family: $caption;
-    color: $navy-blue;
-    font-size: 20px;
-    margin-left: 2rem;
+  font-family: $caption;
+  color: $navy-blue;
+  font-size: 20px;
+  margin-left: 2rem;
 }
 .clock_images {
-    margin-top: 2rem;
-    margin: .8rem;
+  margin-top: 2rem;
+  margin: 0.8rem;
 }
 .clock_img {
-    width: 20% !important;
-    margin: 1rem;
+  width: 20% !important;
+  margin: 1rem;
 }
 @media only screen and (max-width: 992px) {
-    .planetrescue-img,
-    .project-images {
-        position: relative;
-        width: 100%;
-    }
+  .planetrescue-img,
+  .project-images {
+    position: relative;
+    width: 100%;
+  }
 }
 .view-more-title {
-    font: normal bold 30px/30px $roboto;
-    color: $navy-blue;
-    text-align: center;
-    margin-top: 2rem;
+  font: normal bold 30px/30px $roboto;
+  color: $navy-blue;
+  text-align: center;
+  margin-top: 2rem;
 }
 .info-heading {
-    font: normal bold 30px/30px $roboto;
-    font-family: $caption;
-    color: $orange;
-    margin: 4rem 0 -2rem 4rem;
+  font: normal bold 30px/30px $roboto;
+  font-family: $caption;
+  color: $orange;
+  margin: 4rem 0 -2rem 4rem;
 }
 .project-details {
-    margin: 6rem auto 2rem auto;
-    width: 60%;
-    padding: 0.5rem;
-    border: 1px solid $orange;
-    h2 {
-        text-align: center;
-        color: $orange;
-        font-family: $caption;
-    }
+  margin: 6rem auto 2rem auto;
+  width: 60%;
+  padding: 0.5rem;
+  border: 1px solid $orange;
+  h2 {
+    text-align: center;
+    color: $orange;
+    font-family: $caption;
+  }
 }
 .planetrescue-h2 {
-    padding-bottom: 1em;
-    padding-top: 1em;
-    margin-left: 2rem;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  margin-left: 2rem;
 }
 .gists > a {
-    margin-left: 2rem;
-    text-decoration: none;
-    font-family: $caption;
-    font-size: 20px;
-    color: $navy-blue;
-    &:hover {
-        text-decoration: underline;
-    }
+  margin-left: 2rem;
+  text-decoration: none;
+  font-family: $caption;
+  font-size: 20px;
+  color: $navy-blue;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 .gists > h2 {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 .project-details ul li {
-    color: $navy-blue;
-    font-family: $roboto;
-    font-size: 14px;
+  color: $navy-blue;
+  font-family: $roboto;
+  font-size: 14px;
 }
 
 .last-row {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 .three-col {
-    display: flex;
-    column: 0 0 33%;
+  display: flex;
+  column: 0 0 33%;
 }
 @media only screen and (max-width: 600px) {
-    .three-col {
-        display: flex;
-        flex-direction: column;
-      
-    }
+  .three-col {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .project-h4-desc {
-    color: $navy-blue;
-    text-align: center;
-    font-family: $caption;
-    font-size: 20px;
+  color: $navy-blue;
+  text-align: center;
+  font-family: $caption;
+  font-size: 20px;
 }
